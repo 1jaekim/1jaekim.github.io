@@ -1,0 +1,20 @@
+---
+layout:post
+title: "2026-03-25 Wednesday
+Actually, this is my first post 
+My goal is to improve my english and software engineering skill
+---
+## What I learned Today
+[1] *** I am preparing my lab seminar. I chose my paper(Large Language Models for Software Testing: A Research Roadmap) 
+why i chose this paper that is i am currenlty studying software testing and interested in LLM. I want to learn when and how i can use LLM properly in software testing system.
+[2] *** I am studying operating system. Specifically, CPU scheduling that has 5 scheduling criteria CPU Utilization, Throughput, Turnaround time, Waiting time, Response time.
+-> CPU Utilization is measures the percentage of time the CPU is actively executing processses, as opposed to being idle.
+~ I thought this is my first idea when I think how CPU organize process
+-> Throughtput is the number of process that are completed per time unit.
+-> Turnaround time is total time taken from a process's creation to its completion.
+-> Waiting time is time a process spends in the queue waiting for the CPU.
+-> Response time is the time from submission of a request to the first response produced.
+### I watched youtube vidio at "https://www.youtube.com/watch?v=O2tV9q6784k&t=1s" 
+
+MY OPINION:
+  next time, i should write more and more specific writing
