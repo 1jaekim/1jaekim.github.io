@@ -14,35 +14,29 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: WONJAE(PAUL) # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: 3rd Year CS & Cloud Computing Student | Aspiring Software Engineer # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
-
+  I am a 3rd-year Computer Science and Engineering student at **Kangwon National University**, and a member of **ISEL (Intelligent Software Engineering Lab)**. I am passionate about Software Engineering powered by LLM and Machine Learning, with a growing interest in Cloud services like AWS and Azure.
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+
 
 github:
-  username: github_username # change to your GitHub username
+  username: 1jaekim
 
-twitter:
-  username: twitter_username # change to your Twitter username
+instagram:
+  username: _1ja22
+
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: "WONJAE KIM"
+  email: "won48120@gmail.com"
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/1jaekim
+    - https://www.instagram.com/_1ja22
 
 # Site Verification Settings
 webmaster_verifications:
