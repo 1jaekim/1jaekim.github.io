@@ -15,7 +15,7 @@ Welcome to my technical blog. I am Wonjae Kim, a Computer Science student and an
 ## Connect with Me
 * Email: won48120@gmail.com / won48120@kangwon.ac.kr
 * GitHub: 1jaekim
-
+* Website: https://1jaekim.github.io
 ---
 
 ## License
