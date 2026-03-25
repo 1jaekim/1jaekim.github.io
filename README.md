@@ -14,7 +14,6 @@ Welcome to my technical blog. I am Wonjae Kim, a Computer Science student and an
 
 ## Connect with Me
 * Email: won48120@gmail.com / won48120@kangwon.ac.kr
-* Instagram: @_1ja22
 * GitHub: 1jaekim
 
 ---
