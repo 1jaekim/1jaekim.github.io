@@ -1,0 +1,28 @@
+---
+layout: post
+title: "2026-03-26 a day full of lectures"
+---
+
+## What I Learned Today
+
+### [1] Operating Systems: The Evolution of Threads
+Today's lecture focused on why threads were introduced in CPU scheduling.
+
+### [2] Software Engineering: Mapping the User Journey
+As part of our **Scholarship Recommendation System** project, we conducted a User Story Mapping session today.
+Today, my team and I visualized the entire process from a student's perspective.
+We focused not only on features, but also on the overall user experience (UX).
+
+### [3] Data Communications: The L7 Application Layer
+We explored the highest layer of the OSI model: **Layer 7, the Application Layer**.
+This lecture introduced top-down approach
+### [4] Problem Solving on Baekjoon
+I continued my weekly routine on the [Baekjoon](https://www.acmicpc.net) platform.
+* **Progress:** Successfully solved **8 problems** today.
+
+---
+
+## MY OPINION
+Today was a bussy day. I learned about Software Engineering methodologies in the morning and immediately applied them to our scholarship project by creating a **User Story Map**. Also, studying the L7 Application Layer in Data Comm gave me a clearer picture of how our web service will actually communicate over the network.
+
+Every day, I feel my engineering skills and English expression are becoming more specific. I will keep pushing to write more detailed reviews.
