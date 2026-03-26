@@ -10,7 +10,7 @@ Welcome to my technical blog. I am Wonjae Kim, a Computer Science student and an
 ## Technical Interests
 * Software Engineering: Exploring LLM-powered software testing and development automation.
 * Cloud Computing: Designing and managing scalable systems on AWS and Azure.
-* Operating Systems: Deep diving into the core principles of system management and CPU scheduling.
+
 
 ## Connect with Me
 * Email: won48120@gmail.com / won48120@kangwon.ac.kr
