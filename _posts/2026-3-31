@@ -1,0 +1,308 @@
+## 1️⃣ 저장소 생성 및 초기 설정
+
+```
+git init
+```
+
+👉 현재 폴더를 Git 저장소로 초기화
+
+---
+
+### 사용자 정보 설정
+
+```
+git config--global user.name "이름"
+git config--global user.email "이메일"
+```
+
+👉 커밋 작성자 정보 설정
+
+---
+
+# 2️⃣ 작업 흐름 (핵심 개념)
+
+Git은 3단계로 이루어짐👇
+
+```
+Working Directory → Staging Area → Repository
+```
+
+---
+
+## 📌 Working Directory
+
+- 실제 코드 작성하는 공간
+
+---
+
+## 📌 Staging Area (중요)
+
+👉 커밋하기 전에 올려두는 공간
+
+```
+git add .
+```
+
+👉 파일을 스테이징 영역으로 이동
+
+---
+
+## 📌 Repository
+
+👉 commit 하면 저장되는 곳
+
+```
+git commit-m"메시지"
+```
+
+---
+
+# 3️⃣ tracked vs untracked
+
+## 📌 Untracked
+
+- Git이 관리 안 하는 파일
+
+## 📌 Tracked
+
+- Git이 추적하는 파일
+
+👉 `git add` 하면:
+
+```
+untracked → tracked
+```
+
+---
+
+# 4️⃣ 상태 확인
+
+```
+git status
+```
+
+👉 현재 상태 확인
+
+- 어떤 파일이 변경됐는지
+- staged / unstaged 상태
+
+---
+
+# 5️⃣ 원격 저장소 (Remote Repository)
+
+## 📌 remote 연결
+
+```
+git remote add origin <repo 주소>
+```
+
+---
+
+## 📌 push (업로드)
+
+```
+git push origin main
+```
+
+👉 로컬 → 원격
+
+---
+
+## 📌 pull (다운로드)
+
+```
+git pull origin main
+```
+
+👉 원격 → 로컬
+
+## 1️⃣ 저장소 생성 및 초기 설정
+
+```
+git init
+```
+
+👉 현재 폴더를 Git 저장소로 초기화
+
+---
+
+### 사용자 정보 설정
+
+```
+git config--global user.name"이름"
+git config--global user.email"이메일"
+```
+
+👉 커밋 작성자 정보 설정
+
+---
+
+# 2️⃣ 작업 흐름 (핵심 개념)
+
+Git은 3단계로 이루어짐👇
+
+```
+Working Directory → Staging Area → Repository
+```
+
+---
+
+## 📌 Working Directory
+
+- 실제 코드 작성하는 공간
+
+---
+
+## 📌 Staging Area (중요)
+
+👉 커밋하기 전에 올려두는 공간
+
+```
+git add .
+```
+
+👉 파일을 스테이징 영역으로 이동
+
+---
+
+## 📌 Repository
+
+👉 commit 하면 저장되는 곳
+
+```
+git commit-m"메시지"
+```
+
+---
+
+# 3️⃣ tracked vs untracked
+
+## 📌 Untracked
+
+- Git이 관리 안 하는 파일
+
+## 📌 Tracked
+
+- Git이 추적하는 파일
+
+👉 `git add` 하면:
+
+```
+untracked → tracked
+```
+
+---
+
+# 4️⃣ 상태 확인
+
+```
+git status
+```
+
+👉 현재 상태 확인
+
+- 어떤 파일이 변경됐는지
+- staged / unstaged 상태
+
+---
+
+# 5️⃣ 원격 저장소 (Remote Repository)
+
+## 📌 remote 연결
+
+```
+git remote add origin <repo 주소>(github에서 주소를 가져온다)
+```
+
+---
+
+## 📌 push (업로드)
+
+```
+git push origin main
+```
+
+👉 로컬 → 원격
+
+---
+
+## 📌 pull (다운로드)
+
+```
+git pull origin main
+```
+
+👉 원격 → 로컬
+
+# 6️⃣ Branch (브랜치)
+
+## 📌 브랜치란?
+
+👉 **코드를 독립적으로 작업할 수 있는 공간**
+
+```
+main (기본 브랜치)
+ ├── feature/login
+ ├── feature/signup
+```
+
+👉 서로 영향 없이 개발 가능
+
+---
+
+## 📌 왜 쓰냐
+
+- 기능별 개발
+- 협업
+- 안정성 유지
+
+👉 main은 항상 안전하게 유지
+
+---
+
+# 🔧 브랜치 명령어
+
+## 1️⃣ 브랜치 생성
+
+```
+git branch 브랜치이름
+```
+
+---
+
+## 2️⃣ 브랜치 이동
+
+```
+git checkout 브랜치이름
+```
+
+---
+
+## 한 번에 생성 + 이동
+
+```
+git checkout-b 브랜치이름
+```
+
+---
+
+## 3️⃣ 브랜치 확인
+
+```
+git branch
+```
+
+👉 현재 브랜치 `*` 표시
+
+---
+
+# 브랜치 병합 (merge)
+
+## 📌 다른 브랜치 작업을 합칠 때
+
+```
+git checkout main
+git merge 브랜치이름
+```
+
+👉 feature → main으로 합침
